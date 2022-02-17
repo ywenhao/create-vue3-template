@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "sourceMap": false,
+    "strict": true,
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*":[
+        "src/*"
+      ],
+      "/*":[
+        "public/*"
+      ]
+    },
+    "types": [
+      "element-plus/global",
+      "vite/client"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src/**/*.js",
+    "src/**/*.vue",
+    "./typings/*.d.ts"
+  ]
+}
